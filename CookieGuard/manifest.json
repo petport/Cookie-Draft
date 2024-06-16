@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Cookie Access Monitor",
+    "version": "1.0",
+    "description": "Detects third-party scripts trying to access cookies.",
+    "permissions": [
+      "webRequest",
+      "cookies",
+      "activeTab",
+      "storage",
+      "scripting"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": ["<all_urls>"],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"],
+        "run_at": "document_start"
+      }
+    ]
+  }

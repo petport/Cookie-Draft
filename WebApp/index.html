@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Access Test</title>
+    <!-- <script>
+        // First-party script trying to set a cookie
+        document.cookie = "firstParty=testFirstPartyCookie; path=/";
+        console.log("First-party script set cookie: " + document.cookie);
+    </script> -->
+    <script src="first_party.js"></script>
+    <!-- Include the malicious script -->
+    <script src="http://localhost:8001/malicious_third_party.js"></script>
+</head>
+<body>
+    <h1>Cookie Access Test</h1>
+</body>
+</html>
