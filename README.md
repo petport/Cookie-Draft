@@ -43,3 +43,6 @@ Server Logs. Bottom Left: Attacker Server has recieved the stolen cookies
 Extension logs the malicious scripts for offline use
 <img width="1504" alt="Screenshot 2024-06-16 at 11 06 59 PM" src="https://github.com/petport/Cookie-Draft/assets/23433131/098e651f-e78a-4a86-857f-41cce1540087">
 
+Background.js logging requests
+<img width="1512" alt="Screenshot 2024-06-17 at 1 32 45 AM" src="https://github.com/petport/Cookie-Draft/assets/23433131/04786675-05f9-423f-807c-ec0241fae6a9">
+
